@@ -13,8 +13,14 @@ elif distance < 4:
     print('Меньше 4х км')
 if distance > 4:
     print('Больше 4х км')GROWTH = 160
-
-
-
 #Калорий сожено:1.4862521674510776; Пройдено:5.664059419652339
 #Больше 4х км
+
+
+word = "казак"
+if str(word) == str(word)[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+#Palindrome
